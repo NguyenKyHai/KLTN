@@ -1,0 +1,25 @@
+#error_page {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    @include centered;
+    text-align: center;
+}
+
+.error_page_content {
+    background-color: white;
+
+    img {
+        width: 60%;
+    }
+
+    h3 {
+        margin: 50px 0 0 0;
+        font-weight: 500;
+    }
+
+    .btn {
+        margin-top: 2rem;
+    }
+
+}

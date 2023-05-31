@@ -1,0 +1,35 @@
+#featured {
+    // margin-top: 5rem;
+    padding: 50px;
+}
+
+.featured_slides {
+    text-align: center;
+    overflow: hidden;
+
+    @include devices(md) {
+        width: 16rem;
+    }
+}
+
+.featured_title {
+    padding: 10px 0 20px 0;
+}
+
+.products_price {
+    padding: 0 0 20px 0;
+}
+
+.featured_swiper {
+    @include padding-y(2rem !important, 2rem !important);
+}
+
+.featured_img {
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+
+    img {
+        @include img-fit;
+    }
+}
